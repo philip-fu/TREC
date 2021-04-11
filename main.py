@@ -1,6 +1,7 @@
 #%%
 import logging
 import pickle
+import fire
 
 import numpy as np
 from sklearn.metrics import confusion_matrix

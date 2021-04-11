@@ -1,3 +1,9 @@
+
+
+# TREC
+
+Please see `present.ipynb` for more details.
+
 ## setup
 ```
 bash setup.sh
@@ -19,6 +25,3 @@ python main.py evaluate --eval_data_path=<path_to_test_txt> \
 ## env
 
 Some parameters can be passed via env variable. See `config/config.py` for more details.
-
-
-# TREC

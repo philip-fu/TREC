@@ -25,3 +25,24 @@ python main.py evaluate --eval_data_path=<path_to_test_txt> \
 ## env
 
 Some parameters can be passed via env variable. See `config/config.py` for more details.
+
+## code structure
+```
+ ./
+ │   README.md
+ │   present.ipynb
+ │   requrements.txt
+ │   setup.sh
+ │   main.py # script to train/eval models
+ └───config/
+ │   │   config.py # model parameters
+ └───data/
+ │   │   train_5500.label.txt
+ │   │   test_TREC_10.label.txt
+ └───model/
+ │   │   nb.py # a baseline naive bayes model
+ │   │   embedding_lstm.py # a lstm model
+ └───src/
+ │   │   data.py # functions to load data
+ │   │   word_embedding.py # functions for word embedding and cleaning
+ ```

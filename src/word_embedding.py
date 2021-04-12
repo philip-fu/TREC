@@ -12,7 +12,7 @@ def clean_words(x_series_):
 
     def expand_contractions(text, c_re=c_re_):
         def replace(match):
-            return contractions_list[match.group(0)]
+            return CONTRACT_DICT[match.group(0)]
 
         return c_re.sub(replace, text)
 

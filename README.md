@@ -2,7 +2,7 @@
 
 # TREC
 
-Please see `present.ipynb` for more details.
+Please see `present.ipynb` for more details. If github is not showing the file properly, go to https://nbviewer.jupyter.org/github/philip-fu/TREC/blob/main/present.ipynb
 
 ## setup
 ```
